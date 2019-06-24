@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".MainActivity">
+
+    <LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/numbers"
+            android:id="@+id/numbers"
+
+            android:textSize="20dp"
+
+            android:padding="16dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/family"
+            android:id="@+id/family_members"
+            android:textSize="20dp"
+            android:padding="16dp"            />
+            <!--android:background_color="@color/green"-->
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/color"
+            android:padding="16dp"
+            android:id="@+id/colors"
+            android:textSize="20dp"            />
+            <!--android:background="@color/blue"-->
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/phrase"
+            android:padding="16dp"
+            android:textSize="20dp"
+            android:id="@+id/phrases"
+            android:background="@color/colorAccent"/>
+
+
+    </LinearLayout>
+</ScrollView>

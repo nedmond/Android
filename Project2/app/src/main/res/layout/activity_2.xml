@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity2">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="0dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="name"
+            android:textSize="20sp"
+            android:padding="16dp"
+            android:textColor="@android:color/background_dark"
+            android:textAllCaps="true"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:text="ojulu isaac"
+            android:textAllCaps="true"
+            android:textColor="@android:color/background_dark"
+            android:textSize="20sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="0dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="age"
+            android:textSize="20sp"
+            android:padding="16dp"
+            android:textColor="@android:color/background_dark"
+            android:textAllCaps="true"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="20"
+            android:textSize="20sp"
+            android:layout_marginLeft="100dp"
+            android:padding="16dp"
+            android:textColor="@android:color/background_dark"
+            android:textAllCaps="true"
+
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="0dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:text="country"
+            android:textAllCaps="true"
+            android:textColor="@android:color/background_dark"
+            android:textSize="20dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:text="uganda"
+            android:textAllCaps="true"
+            android:textColor="@android:color/background_dark"
+            android:textSize="20dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="0dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="club"
+            android:textSize="20sp"
+            android:padding="16dp"
+            android:textColor="@android:color/background_dark"
+            android:textAllCaps="true"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:text="uganda crane"
+            android:textAllCaps="true"
+            android:textColor="@android:color/background_dark"
+            android:textSize="20sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="0dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="dob"
+            android:textSize="20sp"
+            android:padding="16dp"
+            android:textColor="@android:color/background_dark"
+            android:textAllCaps="true"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="7th/8/1996"
+            android:textSize="20sp"
+            android:padding="16dp"
+            android:textColor="@android:color/background_dark"
+            android:textAllCaps="true"
+
+
+            />
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+</LinearLayout>

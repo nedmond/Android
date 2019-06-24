@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">My Application3</string>
+    <string name="numbers">Numbers</string>
+    <string name="family">Family Members</string>
+    <string name="color">Color</string>
+    <string name="phrase">Phrases</string>
+
+</resources>
